@@ -1,0 +1,24 @@
+{
+  "name": "integracioncontinua",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/testeo.test.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabarce2000/IntegracionContinua.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabarce2000/IntegracionContinua/issues"
+  },
+  "homepage": "https://github.com/gabarce2000/IntegracionContinua#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mocha": "^8.2.1",
+    "supertest": "^6.1.3"
+  }
+}
